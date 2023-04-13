@@ -1,0 +1,15 @@
+{
+  "name": "carros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/index.js",
+  "scripts": {
+    "serve": "node ./backend/main.js",
+    "test": "node ./js/index.js"
+  },
+  "author": "Alexandre José Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
