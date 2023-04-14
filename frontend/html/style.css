@@ -11,7 +11,7 @@ html, body {
     background-color:pink;
     display: flex;
     flex-direction: row;
-    color: white;
+    color: blue;
     font-size: 28;
 }
 
