@@ -8,10 +8,10 @@ html, body {
 
 
 .barra-navegacao {
-    background-color:pink;
+    background-color:grey;
     display: flex;
     flex-direction: row;
-    color: blue;
+    color: whitesmoke;
     font-size: 28;
 }
 
