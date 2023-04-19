@@ -43,6 +43,11 @@ a {
     height: 100%;
 }
 
-.teste{
-    background-color: blueviolet;
+.cor{
+    background-color: gold;
 }
+
+.teste{
+    background-color: rgb(114, 131, 129);
+}
+
