@@ -6,13 +6,10 @@ app.get('/home/*', function (req, res) {
     console.log ("Testando home " +req.url) 
 })
 app.get('/teste', function (req, res) {
-    res.send('Oi mundo')
-})
-app.get('/', function (req, res) {
-    res.send('Aula')
-    
-console.log ("Testando site " +req.url) 
+    var agora = new Date();
+    res.send('Oi mundo '+agora)
 })
 
-app.listen(3000)
+app.use("/",express.static('frontend'))
+app.listen(80)
 console.log ("Servidor rodando")
