@@ -62,3 +62,11 @@ h2{
 p{
     color: rgba(26, 29, 211, 0.479);
 }
+.carousel-item{
+   width: 100%;
+}
+.carousel-item img{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100%;
+}
